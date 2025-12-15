@@ -1,0 +1,1 @@
+python esp_local_ctrl.py --sec_ver 0 --dont-check-hostname
