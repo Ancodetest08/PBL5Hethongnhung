@@ -11,28 +11,31 @@ It is **adapted from Espressif’s ESP32‑C3 IoT Projects examples** to work wi
 
 ## Project Structure
 
-/
+```
 ├── device_firmware/
-| ├── 1_blink/
-| ├── 2_light_drivers/
-| ├── 3_wifi_connection/
-| ├── 4_network_config/
-| ├── 5_rainmaker/
-| ├── 6_project_optimize/
-| ├── 7_insights/
-| └── components/
-| | ├── app_storage/
-| | ├── app_wifi/
-| | ├── button/
-| | └── light_driver/
+│   ├── 1_blink/
+│   ├── 2_light_drivers/
+│   ├── 3_wifi_connection/
+│   ├── 4_network_config/
+│   ├── 5_rainmaker/
+│   ├── 6_project_optimize/
+│   ├── 7_insights/
+│   └── components/
+│       ├── app_storage/
+│       ├── app_wifi/
+│       ├── button/
+│       └── light_driver/
 ├── phone_app/
-| └── app_android/
+│   └── app_android/
 ├── test_case/
-| ├── gatt_server/
-| ├── local_control/
-| ├── mqtt_tcp/
-| └── tcp_socket/
+│   ├── gatt_server/
+│   ├── local_control/
+│   ├── mqtt_tcp/
+│   └── tcp_socket/
 └── README.md
+```
+
+tree -L 3
 
 ---
 
