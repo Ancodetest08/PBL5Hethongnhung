@@ -35,8 +35,6 @@ It is **adapted from Espressif’s ESP32‑C3 IoT Projects examples** to work wi
 └── README.md
 ```
 
-tree -L 3
-
 ---
 
 ## Requirements
