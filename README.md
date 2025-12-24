@@ -1,6 +1,6 @@
 # PBL 5: Embedded Systems
 
-## Overview
+## 1. Overview
 
 This repository contains the **PBL5Hethongnhung** project for the course *PBL 5: Embedded Systems*.  
 It is **adapted from Espressif’s ESP32‑C3 IoT Projects examples** to work with **ESP‑IDF v5.5**.  
@@ -9,7 +9,7 @@ It is **adapted from Espressif’s ESP32‑C3 IoT Projects examples** to work wi
 
 ---
 
-## Project Structure
+## 2. Project Structure
 
 ```
 ├── device_firmware/
@@ -37,7 +37,7 @@ It is **adapted from Espressif’s ESP32‑C3 IoT Projects examples** to work wi
 
 ---
 
-## Requirements
+## 3. Requirements
 
 - **ESP‑IDF v5.5** (or newer)  
 - ESP32‑C3 toolchain installed  
@@ -47,7 +47,7 @@ Follow Espressif’s official setup guide before building.
 
 ---
 
-## Build & Flash
+## 4. Build & Flash
 
 1. Navigate to a firmware example:
 	```bash
@@ -66,10 +66,12 @@ Follow Espressif’s official setup guide before building.
 	```bash
 	idf.py monitor
  	```
+ 
  > Replace `1_bink` with the example you want to run.
 
- ## References
+ ## 5. References
 
  * ESP32-C3 Wireless Adventure PDF
  * Espressif ESP32-C3 Book (English)
+
 > Original examples are from Espresssif. This repository is adapted for learning and PBL 5 purposes.
